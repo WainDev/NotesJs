@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="error-message-wrapper">
+        <div id="error" class="error-message">
+          <p>Заполните все поля</p>
+        </div>
+      </div>
+      <section class="section-todo">
+        <div class="container">
+          <div class="section-todo__block">
+            <h1 class="section-todo__title">Заметки</h1>
+            <input
+              type="text"
+              placeholder="Наименование"
+              class="section-todo__input"
+              id="input"
+            />
+            <div class="buttons">
+              <button class="section-todo__button" id="button">
+                Сохранить
+              </button>
+            </div>
+          </div>
+          <ul id="list" class="section-todo__items"></ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
